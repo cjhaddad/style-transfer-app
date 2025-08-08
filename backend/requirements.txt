@@ -1,5 +1,12 @@
+# Basic FastAPI setup
 fastapi==0.104.1
 uvicorn==0.24.0
 
+# For file uploads and image processing
 python-multipart==0.0.6
 Pillow==10.0.0
+numpy
+
+# Neural Style Transfer - Apple Silicon optimized for Python 3.8
+tensorflow-macos==2.9.0
+tensorflow-hub==0.12.0
